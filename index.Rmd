@@ -1,0 +1,16 @@
+---
+title: "Amy Pitts"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Go learn moreabout me 
+
+[About Me](about.html)
+
+This is a quick bio of me 
+
+## This is a subsection 
+Here is more text about me 
