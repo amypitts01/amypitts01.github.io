@@ -13,8 +13,13 @@ output:
 Hello and welcome to my personal website. This is home to a complication of projects I have done throughout my academic career. I am currently a Biostatistic PhD student at Columbia University in the Mailman School of Public Health. To learn more about my background please visit the about me tab on the top right! 
 
 
-# Interesting Projects 
+# Interesting Projects:
 
+##### Missing Data in Cancer Studies. 
+View an interactive visualization of how missing data introduce bias in my [Shiny App](https://amypitts.shinyapps.io/Missing_Data/)! 
+
+##### Finding Time Series Breakpoints with Fully Connected Neural Networks
+Here is the published paper [Paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf)!
 
 # Relevant Skills 
 Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave, MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft Visual Studio
@@ -23,13 +28,10 @@ Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3
 # Relevant Course Work
 
 ### Columbia University (PhD)
-P8014: Probability  
-
-P8105: Data Science 
-
-P8130: Biostatisic Methods
-
-P6400: Priciples of Epidemiology 
+- P8014: Probability
+- P8105: Data Science
+- P8130: Biostatisic Methods
+- P6400: Priciples of Epidemiology 
 
 ### Marist College (B.S.)
 Double Major in Applied Mathematics and Data Science with a Minor in Computer Science
