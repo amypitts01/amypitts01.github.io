@@ -31,7 +31,7 @@ ny_noaa_fixed = ny_noaa %>%
 ```
 
 
-Column {data-width=650}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -51,7 +51,7 @@ ny_noaa_fixed %>%
 
 ```
 
-Column {data-width=350}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Chart B
@@ -67,7 +67,7 @@ ny_noaa_fixed %>%
     x = ~snow, y = ~n, color = ~snow, 
     type = "bar", colors = "viridis")  %>%
   layout(
-    title = "Daily Snow fall (mm) in Winter Months of Years 2005-2010 ")
+    title = "Snowfall(mm) in Winter Months, Years 2005-10 ")
 ```
 
 ### Chart C
