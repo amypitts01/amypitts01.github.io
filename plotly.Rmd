@@ -1,0 +1,104 @@
+---
+title: "Plotly examples"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Loading data
+
+We're gonna look at weather data. 
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(dplyr)  
+```
+
+```{r}
+data("ny_noaa")
+
+ny_noaa_fixed = ny_noaa %>%
+  separate(date, sep="-", into = c("year", "month", "day")) %>%
+  mutate(
+   year = as.integer(year),
+   month = as.integer(month),
+   day = as.integer(day),
+   tmax = as.numeric(tmax),
+   tmin = as.numeric(tmin),
+   tmax = tmax / 10,
+   tmin = tmin / 10
+  )
+```
+
+
+
+```{r}
+ny_noaa_fixed %>%
+  filter(year > 2009)
+159671/2
+
+```
+
+
+
+
+# Plotly plots
+
+## scatterplot
+```{r}
+
+smaller_df = sample_n(ny_noaa_fixed, 500)  
+ny_noaa_fixed %>% 
+  filter(year > 2009) %>%
+  mutate(text_label = str_c("Month: ", month, "\nYear: ", year)) %>% 
+  plot_ly(
+    x = ~tmax, y = ~tmin, color = ~factor(month), text = ~text_label, 
+    alpha = .5, type = "scatter", mode = "markers")
+```
+
+## boxplot
+
+```{r}
+ny_noaa_fixed %>% 
+ filter(month == c(1,7)) %>%
+  mutate(year = factor(year), month = factor(month)) %>% 
+  mutate(
+    month = ifelse( month == 1, "January", "July")
+  ) %>%
+  plot_ly(
+    y = ~year, x = ~tmax, color = ~month,
+    type = "box", colors = "viridis") %>%
+  layout(
+    title = "NY Weather Over the Years in 2 Months ")
+
+```
+
+## bar plot
+
+```{r}
+ny_noaa_fixed %>% 
+  filter(year > 2004) %>%
+  filter(month %in% c(12,1,2,3)) %>%
+  filter(snow >0) %>%
+  count(snow) %>% 
+  mutate(snow = factor(snow) ) %>% #fct_reorder(factor(snow), n)) %>% 
+  plot_ly(
+    x = ~snow, y = ~n, color = ~snow, 
+    type = "bar", colors = "viridis")  %>%
+  layout(
+    title = "Daily Snow fall (mm) in Winter Months of Years 2005-2010 ")
+```
+
+
+# ggplotly
+
+```{r}
+ggp_scatter = 
+  nyc_airbnb %>% 
+  ggplot(aes(x = lat, y = long, color = price)) + 
+  geom_point()
+ggplotly(ggp_scatter)
+```
