@@ -15,11 +15,13 @@ library(flexdashboard)
 ```
 
 ```{r}
+# I choose to use the NY NOAA data 
 data("ny_noaa")
 
+# Data cleaning 
 ny_noaa_fixed = ny_noaa %>%
-  separate(date, sep="-", into = c("year", "month", "day")) %>%
-  mutate(
+  separate(date, sep="-", into = c("year", "month", "day")) %>% # Separating the date variable into three
+  mutate( # converting the date, and tmax and tmin into numeric and integers 
    year = as.integer(year),
    month = as.integer(month),
    day = as.integer(day),
@@ -37,16 +39,15 @@ Column {data-width=600}
 ### Chart A
 
 ```{r}
-
-set.seed(1)
+set.seed(1) # setting the seed for reproducibility
 ny_noaa_fixed %>% 
-  filter(year > 2009) %>%
-  sample_n(60000) %>%
-  mutate(text_label = str_c("Month: ", month, "\nYear: ", year)) %>% 
-  plot_ly(
+  filter(year > 2009) %>% # only going to look at the most recent year 
+  sample_n(60000) %>% # taking a sample because looking at it all is way to many data points 
+  mutate(text_label = str_c("Month: ", month, "\nYear: ", year)) %>% # creating text label 
+  plot_ly( #using plotly to plot he tmax and tmin 
     x = ~tmax, y = ~tmin, color = ~factor(month), text = ~text_label, 
     alpha = .5, type = "scatter", mode = "markers") %>%
-  layout(
+  layout( # adding a title 
     title = "NY Weather of 2010 looking at Min and Max Temp ")
 
 ```
@@ -58,31 +59,33 @@ Column {data-width=400}
 
 ```{r}
 ny_noaa_fixed %>% 
-  filter(year > 2004) %>%
-  filter(month %in% c(12,1,2,3)) %>%
-  filter(snow >0) %>%
-  count(snow) %>% 
-  mutate(snow = factor(snow) ) %>% #fct_reorder(factor(snow), n)) %>% 
-  plot_ly(
+  filter(year > 2004) %>%            # only going to years 2005-2010 to limit data points 
+  filter(month %in% c(12,1,2,3)) %>% # only looking at winter months 
+  # winter months are December 12, January 1, February 2, and March 3 
+  count(snow) %>%                    # counting the snow count 
+  mutate(snow = factor(snow) ) %>%   # forcing snow to be a factor 
+  plot_ly( # ploting the snow count and filtering by count of snow in bar cart 
     x = ~snow, y = ~n, color = ~snow, 
     type = "bar", colors = "viridis")  %>%
   layout(
-    title = "Snowfall(mm) in Winter Months, Years 2005-10 ")
+    title = "Snowfall(mm) in Winter Months, Years 2005-10 "
+  )
 ```
 
 ### Chart C
 
 ```{r}
 ny_noaa_fixed %>% 
- filter(month == c(1,7)) %>%
-  mutate(year = factor(year), month = factor(month)) %>% 
+ filter(month == c(1,7)) %>%  # Only looking at January and July 
+  mutate(year = factor(year), # forcing year and month to be factor variables
+         month = factor(month)) %>% 
   mutate(
-    month = ifelse( month == 1, "January", "July")
+    month = ifelse( month == 1, "January", "July") # having month be names instead of numbers 
   ) %>%
-  plot_ly(
+  plot_ly( # plotting the year and the temps in boxplots 
     y = ~year, x = ~tmax, color = ~month,
     type = "box", colors = "viridis") %>%
   layout(
-    title = "NY Weather Over the Years in 2 Months ")
+    title = "NY Max Temps Over the Years focusing on 2 Months ")
 
 ```
