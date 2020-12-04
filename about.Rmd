@@ -1,59 +1,19 @@
 ---
-title: "About Me"
+title: "Personal"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-
-<img src="images/profile_pic.JPG" style="width:50%">
-
-# About Me! 
-
-I am Biostatistic PhD student at Columbia University in the Mailman School of Public Health. My research interests are in functional data science, causal inference, missing data and baysian statistics.  I am currently helping run the Computing Club and we have biweekly meetings. To find out more about this organization and the topics we cover please visit our [website](http://cu-biostats-computing-club.org/)! 
-
-I received my B.S. degree (May 2020) at Marist College double majoring in Applied Mathematics and Data Analytics while minoring in Computer Science. I graduated Summa Cum Laude and with a Baculorate award in Mathematics and Honors in the major of mathematics.   I was the President of the Association for Women in Mathematics chapter and Pi Mu Epsilon chapter at Marist, the Vice-President of the Marist Math Club, and treasurer of the Marist College Equestrian team.     
-
-# CV 
-To see more here is my [CV](AmyPitts_cv.pdf)
-
-# Interesting Projects:
-This is home to a complication of projects I have done throughout my academic career.
-
-##### Missing Data in Cancer Studies. 
-View an interactive visualization of how missing data introduce bias in my [Shiny App](https://amypitts.shinyapps.io/Missing_Data/)! 
-
-##### Finding Time Series Breakpoints with Fully Connected Neural Networks
-Here is the published paper [Paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf)!
-
-# Relevant Skills 
-Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave, MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft Visual Studio
-
-
-# Relevant Course Work
-
-### Columbia University (PhD)
-- P8014: Probability
-- P8105: Data Science
-- P8130: Biostatisic Methods
-- P6400: Priciples of Epidemiology 
-
-### Marist College (B.S.)
-Double Major in Applied Mathematics and Data Science with a Minor in Computer Science
-
-**Mathematics**: Applied Statistics, Differential Equations, Applied Mathematics, Complex Analysis, Mathematical Analysis, Numerical Analysis, Operations Research, Abstract Algebra, Independent Study in Math Biology, Computational Linear Algebra, Probability and Statistics
-
-**Computer Science**: Algorithms, Software Development I-II, Database Management
-
-**Data Science**: Machine Learning, Data Mining, Data Analysis, Data Visualization, Data Management
-courses 
-
+<center>
+ <img src="images/vt.jpg" style="width:100%">
+</center>
 
 # Not Acedemic Related 
 I am original from Vermont and am a small town girl at heart but am currently living in a big city. If I am not spending time on my courses or research you can find me at a horse barn, somewhere outdoors in nature, or quietly embroidering at home. 
 
-<img src="images/vt.jpg" style="width:100%">
+
 
 
 

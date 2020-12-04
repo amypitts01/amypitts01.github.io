@@ -1,16 +1,17 @@
-name: "Amy's Website"
+name: "Amy Pitts"
 output_dir: "."
 navbar:
   title: "Home"
-  right:
-    - text: "About"
+  left:
+    - text: "Personal"
       href: about.html
-    - text: "Dashboard"
-      href: dashboard.html
+    - text: "Academic"
+      href: research.html
+  right:
     - icon: fa-envelope fa-lg
-      href: mailto:<ajp2257@columbia.edu>
+      href: mailto:<ajp2257@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<amypitts01>/
+      href: https://github.com/amypitts01
 output:
   html_document:
-    theme: cerulean
+    theme: journal 

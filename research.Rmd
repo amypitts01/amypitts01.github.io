@@ -1,0 +1,46 @@
+---
+title: "Academic"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# CV 
+To see more here is my [CV](AmyPitts_cv.pdf)
+
+# Interesting Projects:
+This is home to a complication of projects I have done throughout my academic career.
+
+##### Missing Data in Cancer Studies. 
+View an interactive visualization of how missing data introduce bias in my [Shiny App](https://amypitts.shinyapps.io/Missing_Data/)! 
+
+##### Finding Time Series Breakpoints with Fully Connected Neural Networks
+Here is the published paper [Paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf)!
+
+# Relevant Skills 
+Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave, MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft Visual Studio
+
+
+# Relevant Course Work
+
+### Columbia University (PhD)
+- P8014: Probability
+- P8105: Data Science
+- P8130: Biostatisic Methods
+- P6400: Priciples of Epidemiology 
+
+### Marist College (B.S.)
+Double Major in Applied Mathematics and Data Science with a Minor in Computer Science
+
+**Mathematics**: Applied Statistics, Differential Equations, Applied Mathematics, Complex Analysis, Mathematical Analysis, Numerical Analysis, Operations Research, Abstract Algebra, Independent Study in Math Biology, Computational Linear Algebra, Probability and Statistics
+
+**Computer Science**: Algorithms, Software Development I-II, Database Management
+
+**Data Science**: Machine Learning, Data Mining, Data Analysis, Data Visualization, Data Management
+courses 
+

@@ -1,18 +1,26 @@
 ---
-title: "Amy Pitts's Personal Website"
+title: "Amy Pitts"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
-<img src="images/vt2.jpg" style="width:100%">
+PhD Canidite in Biostatistics at
 
-# Welcome!
+Columbia University Mailman School of Public Health
 
-Hello and welcome to my personal website. This website is where you will find homework for P8105 Data Science Assignment number 4. I will be analyzing the NY Weather data. To view cool graphs please choose the dashboard tab on the top right.
+<center>
+  <img src="images/profile_pic.JPG" style="width:25%">
+</center>
 
-I am currently a Biostatistic PhD student at Columbia University in the Mailman School of Public Health. To learn more about my background please visit the about me tab on the top right! 
+# About
 
+I am Biostatistic PhD student at Columbia University in the Mailman School of Public Health. My research interests are in functional data science, causal inference, missing data and baysian statistics.  I am currently helping run the Computing Club and we have biweekly meetings. To find out more about this organization and the topics we cover please visit our [website](http://cu-biostats-computing-club.org/)! 
+
+I received my B.S. degree (May 2020) at Marist College double majoring in Applied Mathematics and Data Analytics while minoring in Computer Science. I graduated Summa Cum Laude and with a Baculorate award in Mathematics and Honors in the major of mathematics.   I was the President of the Association for Women in Mathematics chapter and Pi Mu Epsilon chapter at Marist, the Vice-President of the Marist Math Club, and treasurer of the Marist College Equestrian team.     
+
+# Contact Info 
+
+github username: amypitts01
+Email: ajp2257@cumc.columbia.edu
 
 
