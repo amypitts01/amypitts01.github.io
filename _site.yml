@@ -3,10 +3,10 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
-    - text: "Personal"
-      href: about.html
     - text: "Academic"
       href: research.html
+    - text: "Personal"
+      href: about.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<ajp2257@cumc.columbia.edu>
