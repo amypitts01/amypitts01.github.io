@@ -114,7 +114,12 @@ courses
 
 ---
 
-## Presentations / Posters 
+## Publications/ Presentations / Posters 
+
+#### Publications
+
+- Pitts, Amy, & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
+- Pitts, Amy, & Patil, Sujata. "Missing data in cancer studies" in preparation.
 
 #### Presentations
 

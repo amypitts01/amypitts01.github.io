@@ -4,23 +4,28 @@ output:
   html_document
 ---
 
-PhD Canidite in Biostatistics at
-
-Columbia University Mailman School of Public Health
+### PhD Candidate in Biostatistics, Columbia University Mailman School of Public Health
 
 <center>
-  <img src="images/profile_pic.JPG" style="width:25%">
+  <img src="images/profile_pic.JPG" style="width:30%">
 </center>
 
-# About
 
-I am Biostatistic PhD student at Columbia University in the Mailman School of Public Health. My research interests are in functional data science, causal inference, missing data and baysian statistics.  I am currently helping run the Computing Club and we have biweekly meetings. To find out more about this organization and the topics we cover please visit our [website](http://cu-biostats-computing-club.org/)! 
+
+I am Biostatistic PhD student at Columbia University in the Mailman School of Public Health. My research interests are in functional data science, causal inference, missing data and baysian statistics.  I am currently helping organize the Computing Club and we have biweekly meetings during the fall and spring academic semester. To find out more about this organization and the topics we cover please visit our [website](http://cu-biostats-computing-club.org/)! 
 
 I received my B.S. degree (May 2020) at Marist College double majoring in Applied Mathematics and Data Analytics while minoring in Computer Science. I graduated Summa Cum Laude and with a Baculorate award in Mathematics and Honors in the major of mathematics.   I was the President of the Association for Women in Mathematics chapter and Pi Mu Epsilon chapter at Marist, the Vice-President of the Marist Math Club, and treasurer of the Marist College Equestrian team.     
 
-# Contact Info 
+---
 
-*github username*: amypitts01
+## Contact Info 
+Amy Johnson Pitts 
+
+[Department of Biostatistics](https://www.publichealth.columbia.edu/become-student/departments/biostatistics) Columbia Mailman School of Public Health
+
+722 West 168th Street
+
+New York, New York 10032
 
 *Email*: ajp2257@cumc.columbia.edu
 
