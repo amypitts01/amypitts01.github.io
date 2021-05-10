@@ -32,7 +32,6 @@ This is home to all my academic accomplishments. A pdf copy of my CV is availabl
 * **Degree**: Bachelor of Science 
 * **Double Major**: Applied Mathematics and Data Science & Analytics 
 * **Minor**: Computer Science 
-* **GPA**: 3.96 
 
 
 --- 
