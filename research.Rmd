@@ -52,6 +52,13 @@ Here is the published [paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019
 
 ## Experience 
 
+#### Biostatistics Research Fellow  (2020-Present)
+Location: Bristol Myers Squibb, Remote Internship 
+
+- Selected to be a part of the 2021 summer Bristol Myers Squibb Internship Program in the Biostatistics department.
+- I will spend the summer learning about Phase 1 clinical trials while researching go/no go decision making using a Bayesian framework. 
+
+
 #### Graduate Teaching Assistant (2020-Present)
 Location: Biostatistics Department, Mailman School of Public Health
 
@@ -92,6 +99,9 @@ Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3
 ## Relevant Course Work
 
 #### Columbia University (PhD)
+- P9104: Probability for Biostatisticians 
+- P9109: Theory of Statistical Inference
+- P9130: Advanced Methods
 - P8014: Probability
 - P8105: Data Science I
 - P8130: Biostatisic Methods I
@@ -122,6 +132,7 @@ courses
 
 #### Presentations
 
+- Pitts, Amy. "Predicting Mesothelioma Disease Status Using Demographic, Clinical, and Exposure-Related Factors", Marist College Pi Mu Epsilon Induction Ceremony. May 2021. 
 - Pitts, Amy. Kwizera, Muhire. "Python Tutorial", Columbia Biostatistics Computing Club. December 2020.
 -  Pitts, Amy. Mulligan, Kaitlyn. & Allison Nowakowski. "The Machine Learning Quote Generator" Marist College School of Computer Science & Mathematics. Cisco Webex. May 2020.
 - Pitts, Amy. "SeminaR: an R tutorial looking at shiny applications" Marist College Department of Mathematics. Poughkeepsie, NY. November 2019.  
@@ -152,6 +163,7 @@ courses
    
 #### Honors
 
+- Invited to give a key note presentation and the presidential address at the Marist College Pi Mu Epsilon Induction Ceremony (2021)
 - Marist College Excellence in Mathematics Award (2020)
 - Inducted into the Marist College Pi Mu Epsilon Chapter Mathematics Honors Society (2019)
 - Recipient of an Outstanding Poster Award at the Joint Mathematics Meeting, Baltimore (2019)
