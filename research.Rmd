@@ -39,6 +39,14 @@ This is home to all my academic accomplishments. A pdf copy of my CV is availabl
 ## Interesting Projects
 This is home to a complication of projects I have done throughout my academic career.
 
+##### Association of Bayesian Go/No-Go Design in Early Oncology Studies
+This is a project completed during my internship at Bristol Myers Squibb. It is a 
+[shiny app](https://amypitts.shinyapps.io/go_nogo_early_oncology_studies/) that explores how the Simon's Two-Phase Design can be adapted to a dual criterion Bayesian design.
+
+##### Dose Escalation Methods
+This is the second project that I completed during my time at Bristol Myers Squibb. I developed a 
+[shiny app](https://amypitts.shinyapps.io/dose_escalation_app/) that compares 11 different dose escalation methods through user specified simulations. It also compares decision tables for the methods that can be summarized into one. 
+
 ##### Exploration in US Beer Data. 
 This final project for a data science class is an interactive [website](https://iriswangziyi.github.io/p8105_final_project/index.html) that dives into how Beer consumption, production and taxation difference between each state. 
 
@@ -52,19 +60,19 @@ Here is the published [paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019
 
 ## Experience 
 
-#### Biostatistics Research Fellow  (2020-Present)
-Location: Bristol Myers Squibb, Remote Internship 
-
-- Selected to be a part of the 2021 summer Bristol Myers Squibb Internship Program in the Biostatistics department.
-- I will spend the summer learning about Phase 1 clinical trials while researching go/no go decision making using a Bayesian framework. 
-
-
 #### Graduate Teaching Assistant (2020-Present)
 Location: Biostatistics Department, Mailman School of Public Health
 
-- Holds office hours, grades, and helps create assignments for the graduate level class Introduction to Health Data Science 
-- The fully remote class primarily focuses on R and basic biostatistics fundamental topics
+- Fosters learning through holding weekly once hours, and answering student questions during class and over email, provides detailed feedback on weekly assignments, quizzes and projects
+- Introduction to Health Data Science course primarily focuses on tidyverse in R and basic biostatistics fundamental topics
+- Introduction to Randomized Clinical Trials course focuses on the fundamentals of clinical trials which culminates in each student designing their own phase 3 protocol unitizing the PASS software
 
+
+#### Biostatistics Research Fellow  (Summer 2021)
+Location: Bristol Myers Squibb, Remote Internship 
+
+- Selected to be a part of the 2021 summer Bristol Myers Squibb Internship Program in the Biostatistics department.
+- Explored two projects, one comparing dose escalation designs through simulations and another looking at go/no go decision. Both project shiny apps are found above. 
 
 #### Math Lab Lead Tutor (2018-2020) 
 Location:Department of Mathematics, Marist College
@@ -102,6 +110,7 @@ Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3
 - P9104: Probability for Biostatisticians 
 - P9109: Theory of Statistical Inference
 - P9130: Advanced Methods
+- P8124: Graphical Models for Complex Health Data
 - P8014: Probability
 - P8105: Data Science I
 - P8130: Biostatisic Methods I
@@ -131,7 +140,7 @@ courses
 - Pitts, Amy, & Patil, Sujata. "Missing data in cancer studies" in preparation.
 
 #### Presentations
-
+- Pitts, Amy. "Bayesian Go/No-Go Rules & Two-stage Designs and Comparison of Dose Escalation Designs in Early Oncology Studies", Bristol Myers Squibb. Microsoft Teams. August 2021. 
 - Pitts, Amy. "Predicting Mesothelioma Disease Status Using Demographic, Clinical, and Exposure-Related Factors", Marist College Pi Mu Epsilon Induction Ceremony. May 2021. 
 - Pitts, Amy. Kwizera, Muhire. "Python Tutorial", Columbia Biostatistics Computing Club. December 2020.
 -  Pitts, Amy. Mulligan, Kaitlyn. & Allison Nowakowski. "The Machine Learning Quote Generator" Marist College School of Computer Science & Mathematics. Cisco Webex. May 2020.

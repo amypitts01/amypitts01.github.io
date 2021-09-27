@@ -1,5 +1,5 @@
 ---
-title: "Personal"
+title: "About Me"
 output: 
   html_document:
     toc: true
@@ -10,8 +10,7 @@ output:
  <img src="images/vt.jpg" style="width:100%">
 </center>
 
-# Not Acedemic Related 
-I am original from Vermont and am a small town girl at heart but am currently living in a big city. If I am not spending time on my courses or research you can find me at a horse barn, somewhere outdoors in nature, or quietly embroidering at home. 
+I am original from Vermont but am currently living in a big city. If I am not spending time on my courses or research you can find me at a horse barn, somewhere outdoors in nature, or quietly embroidering at home.  
 
 
 
