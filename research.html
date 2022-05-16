@@ -13,12 +13,22 @@
 
 <title>Academic</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -28,12 +38,16 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -46,32 +60,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -81,10 +71,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -101,40 +87,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 61px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -162,7 +124,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -174,7 +136,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -185,10 +147,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -200,7 +175,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -326,7 +300,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -340,7 +314,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -374,7 +348,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -383,11 +357,14 @@ div.tocify {
 </div>
 
 
-<p>This is home to all my academic accomplishments. A pdf copy of my CV is available <a href="AmyPitts_cv.pdf">here</a>. Please reach out if you have any questions.</p>
+<p>This is home to all my academic accomplishments. A pdf copy of my CV
+is available <a href="AmyPitts_cv.pdf">here</a>. Please reach out if you
+have any questions.</p>
 <hr />
 <div id="education" class="section level2">
 <h2>Education</h2>
-<div id="columbia-university-mailman-school-of-public-health" class="section level4">
+<div id="columbia-university-mailman-school-of-public-health"
+class="section level4">
 <h4>Columbia University, Mailman School of Public Health</h4>
 <ul>
 <li><strong>Location</strong>: New York, NY<br />
@@ -402,9 +379,11 @@ div.tocify {
 <h4>Marist College,</h4>
 <ul>
 <li><strong>Location</strong>: Poughkeepsie, NY</li>
-<li><strong>Graduation</strong>: May 2020 Honors: Summa Cum Laude, Honors in Mathematics</li>
+<li><strong>Graduation</strong>: May 2020 Honors: Summa Cum Laude,
+Honors in Mathematics</li>
 <li><strong>Degree</strong>: Bachelor of Science</li>
-<li><strong>Double Major</strong>: Applied Mathematics and Data Science &amp; Analytics</li>
+<li><strong>Double Major</strong>: Applied Mathematics and Data Science
+&amp; Analytics</li>
 <li><strong>Minor</strong>: Computer Science</li>
 </ul>
 <hr />
@@ -412,46 +391,82 @@ div.tocify {
 </div>
 <div id="interesting-projects" class="section level2">
 <h2>Interesting Projects</h2>
-<p>This is home to a complication of projects I have done throughout my academic career.</p>
-<div id="association-of-bayesian-gono-go-design-in-early-oncology-studies" class="section level5">
-<h5>Association of Bayesian Go/No-Go Design in Early Oncology Studies</h5>
-<p>This is a project completed during my internship at Bristol Myers Squibb. It is a <a href="https://amypitts.shinyapps.io/go_nogo_early_oncology_studies/">shiny app</a> that explores how the Simon’s Two-Phase Design can be adapted to a dual criterion Bayesian design.</p>
+<p>This is home to a complication of projects I have done throughout my
+academic career.</p>
+<div
+id="association-of-bayesian-gono-go-design-in-early-oncology-studies"
+class="section level5">
+<h5>Association of Bayesian Go/No-Go Design in Early Oncology
+Studies</h5>
+<p>This is a project completed during my internship at Bristol Myers
+Squibb. It is a <a
+href="https://amypitts.shinyapps.io/go_nogo_early_oncology_studies/">shiny
+app</a> that explores how the Simon’s Two-Phase Design can be adapted to
+a dual criterion Bayesian design.</p>
 </div>
 <div id="dose-escalation-methods" class="section level5">
 <h5>Dose Escalation Methods</h5>
-<p>This is the second project that I completed during my time at Bristol Myers Squibb. I developed a <a href="https://amypitts.shinyapps.io/dose_escalation_app/">shiny app</a> that compares 11 different dose escalation methods through user specified simulations. It also compares decision tables for the methods that can be summarized into one.</p>
+<p>This is the second project that I completed during my time at Bristol
+Myers Squibb. I developed a <a
+href="https://amypitts.shinyapps.io/dose_escalation_app/">shiny app</a>
+that compares 11 different dose escalation methods through user
+specified simulations. It also compares decision tables for the methods
+that can be summarized into one.</p>
 </div>
 <div id="exploration-in-us-beer-data." class="section level5">
 <h5>Exploration in US Beer Data.</h5>
-<p>This final project for a data science class is an interactive <a href="https://iriswangziyi.github.io/p8105_final_project/index.html">website</a> that dives into how Beer consumption, production and taxation difference between each state.</p>
+<p>This final project for a data science class is an interactive <a
+href="https://iriswangziyi.github.io/p8105_final_project/index.html">website</a>
+that dives into how Beer consumption, production and taxation difference
+between each state.</p>
 </div>
 <div id="missing-data-in-cancer-studies." class="section level5">
 <h5>Missing Data in Cancer Studies.</h5>
-<p>View an interactive visualization of how missing data introduce bias in my <a href="https://amypitts.shinyapps.io/Missing_Data/">Shiny App</a>!</p>
+<p>View an interactive visualization of how missing data introduce bias
+in my <a href="https://amypitts.shinyapps.io/Missing_Data/">Shiny
+App</a>!</p>
 </div>
-<div id="finding-time-series-breakpoints-with-fully-connected-neural-networks" class="section level5">
-<h5>Finding Time Series Breakpoints with Fully Connected Neural Networks</h5>
-<p>Here is the published <a href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf">paper</a>!</p>
+<div
+id="finding-time-series-breakpoints-with-fully-connected-neural-networks"
+class="section level5">
+<h5>Finding Time Series Breakpoints with Fully Connected Neural
+Networks</h5>
+<p>Here is the published <a
+href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf">paper</a>!</p>
 <hr />
 </div>
 </div>
 <div id="experience" class="section level2">
 <h2>Experience</h2>
-<div id="graduate-teaching-assistant-2020-present" class="section level4">
+<div id="graduate-teaching-assistant-2020-present"
+class="section level4">
 <h4>Graduate Teaching Assistant (2020-Present)</h4>
-<p>Location: Biostatistics Department, Mailman School of Public Health</p>
+<p>Location: Biostatistics Department, Mailman School of Public
+Health</p>
 <ul>
-<li>Fosters learning through holding weekly once hours, and answering student questions during class and over email, provides detailed feedback on weekly assignments, quizzes and projects</li>
-<li>Introduction to Health Data Science course primarily focuses on tidyverse in R and basic biostatistics fundamental topics</li>
-<li>Introduction to Randomized Clinical Trials course focuses on the fundamentals of clinical trials which culminates in each student designing their own phase 3 protocol unitizing the PASS software</li>
+<li>Fosters learning through holding weekly once hours, and answering
+student questions during class and over email, provides detailed
+feedback on weekly assignments, quizzes and projects</li>
+<li>Introduction to Health Data Science course primarily focuses on
+tidyverse in R and basic biostatistics fundamental topics</li>
+<li>Introduction to Randomized Clinical Trials course focuses on the
+fundamentals of clinical trials which culminates in each student
+designing their own phase 3 protocol unitizing the PASS software</li>
+<li>Biostatistical Methods II course focuses on generalized linear
+models, as well as methods to handle longitudinal data, and survival
+data.</li>
 </ul>
 </div>
-<div id="biostatistics-research-fellow-summer-2021" class="section level4">
+<div id="biostatistics-research-fellow-summer-2021"
+class="section level4">
 <h4>Biostatistics Research Fellow (Summer 2021)</h4>
 <p>Location: Bristol Myers Squibb, Remote Internship</p>
 <ul>
-<li>Selected to be a part of the 2021 summer Bristol Myers Squibb Internship Program in the Biostatistics department.</li>
-<li>Explored two projects, one comparing dose escalation designs through simulations and another looking at go/no go decision. Both project shiny apps are found above.</li>
+<li>Selected to be a part of the 2021 summer Bristol Myers Squibb
+Internship Program in the Biostatistics department.</li>
+<li>Explored two projects, one comparing dose escalation designs through
+simulations and another looking at go/no go decision. Both project shiny
+apps are found above.</li>
 </ul>
 </div>
 <div id="math-lab-lead-tutor-2018-2020" class="section level4">
@@ -459,34 +474,48 @@ div.tocify {
 <p>Location:Department of Mathematics, Marist College</p>
 <ul>
 <li>Supervise, train, and administrate staff of six students</li>
-<li>Provide tutoring in the Math Lab, a peer help/tutoring center staffed entirely by students</li>
-<li>Courses covered are: Calculus with Management Application, Calculus I-III, Linear Algebra, Differential Equations, Introduction to Mathematical Reasoning, Mathematical Analysis</li>
+<li>Provide tutoring in the Math Lab, a peer help/tutoring center
+staffed entirely by students</li>
+<li>Courses covered are: Calculus with Management Application, Calculus
+I-III, Linear Algebra, Differential Equations, Introduction to
+Mathematical Reasoning, Mathematical Analysis</li>
 </ul>
 </div>
-<div id="biostatistics-research-fellow-summer-2019" class="section level4">
+<div id="biostatistics-research-fellow-summer-2019"
+class="section level4">
 <h4>Biostatistics Research Fellow (Summer 2019)</h4>
 <p>Location: Memorial Sloan Kettering Cancer Center, New York, NY</p>
 <ul>
-<li>Accepted to competitive Quantitative Sciences Undergraduate Research Experience (QSURE)<br />
+<li>Accepted to competitive Quantitative Sciences Undergraduate Research
+Experience (QSURE)<br />
 </li>
-<li>Explored the effects of missing data in cancer studies under advisement of attending biostatistician</li>
-<li>Created a RShiny Application currently accessible online. Paper currently in process of being written</li>
-<li>Abstract accepted for both a presentation and poster session at the Joint Mathematics Meetings in January 2020</li>
+<li>Explored the effects of missing data in cancer studies under
+advisement of attending biostatistician</li>
+<li>Created a RShiny Application currently accessible online. Paper
+currently in process of being written</li>
+<li>Abstract accepted for both a presentation and poster session at the
+Joint Mathematics Meetings in January 2020</li>
 </ul>
 </div>
-<div id="research-experience-for-undergraduates-reu-summer-2018" class="section level4">
+<div id="research-experience-for-undergraduates-reu-summer-2018"
+class="section level4">
 <h4>Research Experience for Undergraduates (REU) (Summer 2018)</h4>
 <p>Location: Lafayette College, Easton, Pennsylvania</p>
 <ul>
-<li>Developed a Bayesian procedure to detect breakpoints in time series alongside two other undergrad students and a professor</li>
-<li>Produced working R code and a rough draft of a paper that is in the process of being edited to eventually be submitted for publication</li>
+<li>Developed a Bayesian procedure to detect breakpoints in time series
+alongside two other undergrad students and a professor</li>
+<li>Produced working R code and a rough draft of a paper that is in the
+process of being edited to eventually be submitted for publication</li>
 </ul>
 <hr />
 </div>
 </div>
 <div id="relevant-skills" class="section level2">
 <h2>Relevant Skills</h2>
-<p>Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave, MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft Visual Studio</p>
+<p>Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS,
+JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave,
+MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft
+Visual Studio</p>
 <hr />
 </div>
 <div id="relevant-course-work" class="section level2">
@@ -494,6 +523,10 @@ div.tocify {
 <div id="columbia-university-phd" class="section level4">
 <h4>Columbia University (PhD)</h4>
 <ul>
+<li>P9110: Theory of Statistical Inference II</li>
+<li>P9185: Statistical Practices and Research for Interdisciplinary
+Sciences (SPRIS)</li>
+<li>P8160: Advanced Statistical Computing</li>
 <li>P9104: Probability for Biostatisticians</li>
 <li>P9109: Theory of Statistical Inference</li>
 <li>P9130: Advanced Methods</li>
@@ -510,10 +543,17 @@ div.tocify {
 </div>
 <div id="marist-college-b.s." class="section level4">
 <h4>Marist College (B.S.)</h4>
-<p>Double Major in Applied Mathematics and Data Science with a Minor in Computer Science</p>
-<p><strong>Mathematics</strong>: Applied Statistics, Differential Equations, Applied Mathematics, Complex Analysis, Mathematical Analysis, Numerical Analysis, Operations Research, Abstract Algebra, Independent Study in Math Biology, Computational Linear Algebra, Probability and Statistics</p>
-<p><strong>Computer Science</strong>: Algorithms, Software Development I-II, Database Management</p>
-<p><strong>Data Science</strong>: Machine Learning, Data Mining, Data Analysis, Data Visualization, Data Management courses</p>
+<p>Double Major in Applied Mathematics and Data Science with a Minor in
+Computer Science</p>
+<p><strong>Mathematics</strong>: Applied Statistics, Differential
+Equations, Applied Mathematics, Complex Analysis, Mathematical Analysis,
+Numerical Analysis, Operations Research, Abstract Algebra, Independent
+Study in Math Biology, Computational Linear Algebra, Probability and
+Statistics</p>
+<p><strong>Computer Science</strong>: Algorithms, Software Development
+I-II, Database Management</p>
+<p><strong>Data Science</strong>: Machine Learning, Data Mining, Data
+Analysis, Data Visualization, Data Management courses</p>
 <hr />
 </div>
 </div>
@@ -522,32 +562,63 @@ div.tocify {
 <div id="publications" class="section level4">
 <h4>Publications</h4>
 <ul>
-<li>Pitts, Amy, &amp; Rivas, Pablo, “Finding Time Series Breakpoints with Fully Connected Neural Networks”, <em>Int’l Conf. Artificial Intelligence CSREA Press.</em> 2019. p.352-357. <a href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf">ISBN: 1-60132-501-0</a>.</li>
-<li>Pitts, Amy, &amp; Patil, Sujata. “Missing data in cancer studies” in preparation.</li>
+<li>Pitts, Amy, &amp; Rivas, Pablo, “Finding Time Series Breakpoints
+with Fully Connected Neural Networks”, <em>Int’l Conf. Artificial
+Intelligence CSREA Press.</em> 2019. p.352-357. <a
+href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf">ISBN:
+1-60132-501-0</a>.</li>
+<li>Pitts, Amy, &amp; Patil, Sujata. “Missing data in cancer studies” in
+preparation.</li>
 </ul>
 </div>
 <div id="presentations" class="section level4">
 <h4>Presentations</h4>
 <ul>
-<li>Pitts, Amy. “Bayesian Go/No-Go Rules &amp; Two-stage Designs and Comparison of Dose Escalation Designs in Early Oncology Studies”, Bristol Myers Squibb. Microsoft Teams. August 2021.</li>
-<li>Pitts, Amy. “Predicting Mesothelioma Disease Status Using Demographic, Clinical, and Exposure-Related Factors”, Marist College Pi Mu Epsilon Induction Ceremony. May 2021.</li>
-<li>Pitts, Amy. Kwizera, Muhire. “Python Tutorial”, Columbia Biostatistics Computing Club. December 2020.</li>
-<li>Pitts, Amy. Mulligan, Kaitlyn. &amp; Allison Nowakowski. “The Machine Learning Quote Generator” Marist College School of Computer Science &amp; Mathematics. Cisco Webex. May 2020.</li>
-<li>Pitts, Amy. “SeminaR: an R tutorial looking at shiny applications” Marist College Department of Mathematics. Poughkeepsie, NY. November 2019.<br />
+<li>Pitts, Amy. “Bayesian Go/No-Go Rules &amp; Two-stage Designs and
+Comparison of Dose Escalation Designs in Early Oncology Studies”,
+Bristol Myers Squibb. Microsoft Teams. August 2021.</li>
+<li>Pitts, Amy. “Predicting Mesothelioma Disease Status Using
+Demographic, Clinical, and Exposure-Related Factors”, Marist College Pi
+Mu Epsilon Induction Ceremony. May 2021.</li>
+<li>Pitts, Amy. Kwizera, Muhire. “Python Tutorial”, Columbia
+Biostatistics Computing Club. December 2020.</li>
+<li>Pitts, Amy. Mulligan, Kaitlyn. &amp; Allison Nowakowski. “The
+Machine Learning Quote Generator” Marist College School of Computer
+Science &amp; Mathematics. Cisco Webex. May 2020.</li>
+<li>Pitts, Amy. “SeminaR: an R tutorial looking at shiny applications”
+Marist College Department of Mathematics. Poughkeepsie, NY. November
+2019.<br />
 </li>
-<li>Pitts, Amy. "My Research Experience at Memorial Sloan Kettering Cancer Center’’ Marist College Department of Mathematics. Poughkeepsie, NY. October 2019.</li>
-<li>Pitts, Amy. "Overleaf Overview’’ Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. New York, NY. August 2019.</li>
-<li>Pitts, Amy, &amp; Rivas, Pablo. “Finding time series breakpoints with fully connected neural networks” 2019 International Conference of Artificial Intelligence. Las Vegas, NV. July, 2019.</li>
-<li>Pitts, Amy. “Missing Data in Cancer Studies” QSURE Final Presentations hosted in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. New York, NY. July 2019.</li>
-<li>Pitts, Amy. Haglich, Kathryn. &amp; Neitzel, Sarah. “A Bayesian method for locating breakpoints in time series” Joint Mathematics Meetings. Baltimore, MD. January 2019.</li>
-<li>Pitts, Amy. “My Research Experience at Lafayette College” Marist College Department of Mathematics. Poughkeepsie, NY. September 2018.</li>
+<li>Pitts, Amy. “My Research Experience at Memorial Sloan Kettering
+Cancer Center’’ Marist College Department of Mathematics. Poughkeepsie,
+NY. October 2019.</li>
+<li>Pitts, Amy. “Overleaf Overview’’ Department of Epidemiology and
+Biostatistics at Memorial Sloan Kettering Cancer Center. New York, NY.
+August 2019.</li>
+<li>Pitts, Amy, &amp; Rivas, Pablo. “Finding time series breakpoints
+with fully connected neural networks” 2019 International Conference of
+Artificial Intelligence. Las Vegas, NV. July, 2019.</li>
+<li>Pitts, Amy. “Missing Data in Cancer Studies” QSURE Final
+Presentations hosted in the Department of Epidemiology and Biostatistics
+at Memorial Sloan Kettering Cancer Center. New York, NY. July 2019.</li>
+<li>Pitts, Amy. Haglich, Kathryn. &amp; Neitzel, Sarah. “A Bayesian
+method for locating breakpoints in time series” Joint Mathematics
+Meetings. Baltimore, MD. January 2019.</li>
+<li>Pitts, Amy. “My Research Experience at Lafayette College” Marist
+College Department of Mathematics. Poughkeepsie, NY. September
+2018.</li>
 </ul>
 </div>
 <div id="poster-presentations" class="section level4">
 <h4>Poster Presentations</h4>
 <ul>
-<li>Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. &amp; Leibner, Jeffery. “A Bayesian method for locating breakpoints in time series” ACM New York Celebration of Women in Computing. Lake George, NY. April 2019.</li>
-<li>Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. &amp; Leibner, Jeffery. “A Bayesian method for locating breakpoints in time series” Joint Mathematics Meeting. Baltimore, MD. January 2019.</li>
+<li>Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. &amp; Leibner,
+Jeffery. “A Bayesian method for locating breakpoints in time series” ACM
+New York Celebration of Women in Computing. Lake George, NY. April
+2019.</li>
+<li>Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. &amp; Leibner,
+Jeffery. “A Bayesian method for locating breakpoints in time series”
+Joint Mathematics Meeting. Baltimore, MD. January 2019.</li>
 </ul>
 <hr />
 </div>
@@ -557,25 +628,36 @@ div.tocify {
 <div id="activities" class="section level4">
 <h4>Activities</h4>
 <ul>
-<li>Board Member, Columbia University Biostatistics Computing Club, (2020-Present)</li>
-<li>President, Marist College Alpha Pi Chapter, Pi Mu Epsilon (2019-2020)</li>
-<li>President and Founder, Association for Women in Mathematics (AWM) Chapter at Marist College (2019-2020)</li>
+<li>Board Member, Columbia University Biostatistics Computing Club,
+(2020-Present)</li>
+<li>President, Marist College Alpha Pi Chapter, Pi Mu Epsilon
+(2019-2020)</li>
+<li>President and Founder, Association for Women in Mathematics (AWM)
+Chapter at Marist College (2019-2020)</li>
 <li>Vice President, Marist Math Club (2019-2020)</li>
 <li>Treasurer, Equestrian Team (2017-2020)</li>
-<li>Member of Marist Team, 79th annual William-Lowell Putnam Mathematical Competition (2018)</li>
+<li>Member of Marist Team, 79th annual William-Lowell Putnam
+Mathematical Competition (2018)</li>
 </ul>
 </div>
 <div id="honors" class="section level4">
 <h4>Honors</h4>
 <ul>
-<li>Invited to give a key note presentation and the presidential address at the Marist College Pi Mu Epsilon Induction Ceremony (2021)</li>
+<li>Invited to give a key note presentation and the presidential address
+at the Marist College Pi Mu Epsilon Induction Ceremony (2021)</li>
 <li>Marist College Excellence in Mathematics Award (2020)</li>
-<li>Inducted into the Marist College Pi Mu Epsilon Chapter Mathematics Honors Society (2019)</li>
-<li>Recipient of an Outstanding Poster Award at the Joint Mathematics Meeting, Baltimore (2019)</li>
-<li>Student Subcommittee Chair, 2019 Marist Math Department Faculty Search Committee (2019)</li>
-<li>Recipient of the Marist College Early Career Undergraduate Mathematics Research Award (2018)</li>
-<li>Awarded Best Visualization at DataFest located at Vassar College (2018)</li>
-<li>Winner of the Hack Harassment Category in Marist College Hackathon (2016)</li>
+<li>Inducted into the Marist College Pi Mu Epsilon Chapter Mathematics
+Honors Society (2019)</li>
+<li>Recipient of an Outstanding Poster Award at the Joint Mathematics
+Meeting, Baltimore (2019)</li>
+<li>Student Subcommittee Chair, 2019 Marist Math Department Faculty
+Search Committee (2019)</li>
+<li>Recipient of the Marist College Early Career Undergraduate
+Mathematics Research Award (2018)</li>
+<li>Awarded Best Visualization at DataFest located at Vassar College
+(2018)</li>
+<li>Winner of the Hack Harassment Category in Marist College Hackathon
+(2016)</li>
 </ul>
 </div>
 </div>
@@ -591,7 +673,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -609,7 +691,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -618,6 +700,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

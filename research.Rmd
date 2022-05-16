@@ -66,6 +66,7 @@ Location: Biostatistics Department, Mailman School of Public Health
 - Fosters learning through holding weekly once hours, and answering student questions during class and over email, provides detailed feedback on weekly assignments, quizzes and projects
 - Introduction to Health Data Science course primarily focuses on tidyverse in R and basic biostatistics fundamental topics
 - Introduction to Randomized Clinical Trials course focuses on the fundamentals of clinical trials which culminates in each student designing their own phase 3 protocol unitizing the PASS software
+- Biostatistical Methods II course focuses on generalized linear models, as well as methods to handle longitudinal data, and survival data. 
 
 
 #### Biostatistics Research Fellow  (Summer 2021)
@@ -107,6 +108,9 @@ Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3
 ## Relevant Course Work
 
 #### Columbia University (PhD)
+- P9110: Theory of Statistical Inference II
+- P9185: Statistical Practices and Research for Interdisciplinary Sciences (SPRIS)
+- P8160: Advanced Statistical Computing 
 - P9104: Probability for Biostatisticians 
 - P9109: Theory of Statistical Inference
 - P9130: Advanced Methods
