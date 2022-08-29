@@ -67,6 +67,7 @@ Location: Biostatistics Department, Mailman School of Public Health
 - Introduction to Health Data Science course primarily focuses on tidyverse in R and basic biostatistics fundamental topics
 - Introduction to Randomized Clinical Trials course focuses on the fundamentals of clinical trials which culminates in each student designing their own phase 3 protocol unitizing the PASS software
 - Biostatistical Methods II course focuses on generalized linear models, as well as methods to handle longitudinal data, and survival data. 
+- Statistical Methods for Casual Inference focuses on discussing causal graphs, randomization, model-based inference, and casual medication as well as various methodological tools. 
 
 
 #### Biostatistics Research Fellow  (Summer 2021)
@@ -108,21 +109,25 @@ Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3
 ## Relevant Course Work
 
 #### Columbia University (PhD)
-- P9110: Theory of Statistical Inference II
-- P9185: Statistical Practices and Research for Interdisciplinary Sciences (SPRIS)
-- P8160: Advanced Statistical Computing 
-- P9104: Probability for Biostatisticians 
-- P9109: Theory of Statistical Inference
+- P9186: Statistical Practices and Research for Interdisciplinary Sciences II (SPRIS II)
+- P9185: Statistical Practices and Research for Interdisciplinary Sciences I (SPRIS I)
 - P9130: Advanced Methods
-- P8124: Graphical Models for Complex Health Data
-- P8014: Probability
-- P8105: Data Science I
-- P8130: Biostatisic Methods I
-- P6400: Priciples of Epidemiology 
-- P8106: Data Science II
-- P8109: Statistical Inference 
-- P8131: Biostatisic Methods II
+- P9120: Data Mining 
+- P9111: Asymptotic Statistics 
+- P9110: Theory of Statistical Inference II
+- P9109: Theory of Statistical Inference
+- P9104: Probability for Biostatisticians 
+- P8160: Advanced Statistical Computing 
 - P8140: Randomized Clinical Trials
+- P8131: Biostatisic Methods II
+- P8130: Biostatisic Methods I
+- P8124: Graphical Models for Complex Health Data
+- P8122: Statistical Methods for Causal Inference 
+- P8109: Statistical Inference 
+- P8106: Data Science II
+- P8105: Data Science I
+- P8104: Probability
+- P6400: Priciples of Epidemiology 
 
 #### Marist College (B.S.)
 Double Major in Applied Mathematics and Data Science with a Minor in Computer Science
