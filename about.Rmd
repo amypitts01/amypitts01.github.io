@@ -10,10 +10,20 @@ output:
  <img src="images/vt.jpg" style="width:100%">
 </center>
 
-I am original from Vermont but am currently living in a big city. If I am not spending time on my courses or research you can find me at a horse barn, somewhere outdoors in nature, or quietly embroidering at home.  
+I am original from Vermont but am currently living in NYC! 
 
 
+<center>
+ <img src="images/maisey.jpg" style="width:100%">
+</center>
+
+This is my cat Maisey 
 
 
+<center>
+ <img src="images/maisey_nyc.jpg" style="width:100%">
+</center>
+
+She also loves living in NYC! 
 
 

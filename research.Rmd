@@ -60,15 +60,21 @@ Here is the published [paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019
 
 ## Experience 
 
+#### Research Analyst (2021-Present)
+Location: Biostatistics Department, Mailman School of Public Health
+
+- Assists in the development of methods and sensitivity analysis for transportability in multi-study, multi-outcome settings and their applications to cognitive remediation therapy for patients with schizophrenia, Mentor: Dr. Caleb H. Miles
+- Develops methods for graphical causal models and identification of direct effects with positivity violations and their applications to the causal effect of anesthesia on fetal development, Mentor: Dr. Caleb H. Miles
+- Implements MRP models to improve survey representativeness and the inference of health outcomes among patients with HIV during COVID-19 pandemic, Mentor: Dr. Qixuan Chen
+- Creates reproducible reports and visualizations to share with collaborators using tidyverse, R Markdown, and RShiny
+- Attends multidisciplinary meetings to discuss both methods and applications
+
 #### Graduate Teaching Assistant (2020-Present)
 Location: Biostatistics Department, Mailman School of Public Health
 
-- Fosters learning through holding weekly once hours, and answering student questions during class and over email, provides detailed feedback on weekly assignments, quizzes and projects
-- Introduction to Health Data Science course primarily focuses on tidyverse in R and basic biostatistics fundamental topics
-- Introduction to Randomized Clinical Trials course focuses on the fundamentals of clinical trials which culminates in each student designing their own phase 3 protocol unitizing the PASS software
-- Biostatistical Methods II course focuses on generalized linear models, as well as methods to handle longitudinal data, and survival data. 
-- Statistical Methods for Casual Inference focuses on discussing causal graphs, randomization, model-based inference, and casual medication as well as various methodological tools. 
-
+- Fosters learning through holding weekly office hour, and answering student questions during class and over email 
+- Provides detailed feedback on weekly assignments, quizzes and projects  
+- Classes include Introduction to Data Science in R, Randomized Clinical Trials, Biostatistical Methods II,  Statistical Methods for Casual Inference, and Data Science II
 
 #### Biostatistics Research Fellow  (Summer 2021)
 Location: Bristol Myers Squibb, Remote Internship 
@@ -102,7 +108,12 @@ Location: Lafayette College, Easton, Pennsylvania
 ---
 
 ## Relevant Skills 
-Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS, JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave, MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft Visual Studio
+
+**Programming Languages:**  R, RStudio, \LaTeX, git, GitHub, PASS, Python, HTML, CSS, JavaScript, SQL, MATLAB, Java 
+
+**Statistical Skills:** Causal Inference, Hypothesis testing, Regression Techniques (linear, glm, lasso, ridge), Multivariate, Longitudinal and Survival Analysis, Neural Networks/Deep Learning, Bayesian Approaches,  Stochastic Processes 
+
+**Data Visualization Tools:** RShiny, ggplot, gtsummary, Rmarkdown, tikZ, D3, tableau
 
 --- 
 
@@ -145,10 +156,14 @@ courses
 
 #### Publications
 
-- Pitts, Amy, & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
-- Pitts, Amy, & Patil, Sujata. "Missing data in cancer studies" in preparation.
+- **Pitts, Amy,** & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
+- Duong, Ngoc Q., **Pitts, Amy J.,** Kim, Soohyun \& Miles, Caleb H. ``Sensitivity analysis for transportability in multi-study, multi-outcome settings'' [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
+- **Pitts, Amy J.** \& Fowler, Charlotte. ``Comparison of open-source software for plotting directed acyclic graphs" in preparation. 
+- **Pitts, Amy,** & Patil, Sujata. "Missing data in cancer studies" in preparation.
 
 #### Presentations
+- Pitts, Amy. Fowler, Charlotte. ["Software to Draw DAGs"](http://cu-biostats-computing-club.org/resources_files/DAG_pres.html#(1)), Causal Inference Learning Group. Feb 2023. 
+- Pitts, Amy. ["R-Shiny Crash Course"](http://cu-biostats-computing-club.org/resources_files/shiny_pres/cc_pres_nov_2022.pdf) Columbia Biostatistics Computing Club. Nov 2022. 
 - Pitts, Amy. "Bayesian Go/No-Go Rules & Two-stage Designs and Comparison of Dose Escalation Designs in Early Oncology Studies", Bristol Myers Squibb. Microsoft Teams. August 2021. 
 - Pitts, Amy. "Predicting Mesothelioma Disease Status Using Demographic, Clinical, and Exposure-Related Factors", Marist College Pi Mu Epsilon Induction Ceremony. May 2021. 
 - Pitts, Amy. Kwizera, Muhire. "Python Tutorial", Columbia Biostatistics Computing Club. December 2020.
@@ -162,7 +177,7 @@ courses
 -  Pitts, Amy. "My Research Experience at Lafayette College" Marist College Department of Mathematics. Poughkeepsie, NY. September 2018. 
 
 #### Poster Presentations
-
+- Pitts, Amy. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", ENAR Poster Session. Mar 2023.
 - Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" ACM New York Celebration of Women in Computing. Lake George, NY. April 2019.
 - Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meeting. Baltimore, MD. January 2019.
 
@@ -173,6 +188,7 @@ courses
 #### Activities
 
 - Board Member, Columbia University Biostatistics Computing Club, (2020-Present)
+- Chair of Student Committee, Columbia Biostatistics Department Master Practicum Symposium, (2023)
 - President, Marist College Alpha Pi Chapter, Pi Mu Epsilon (2019-2020) 
 - President and Founder, Association for Women in Mathematics (AWM) Chapter at Marist College (2019-2020)
 - Vice President, Marist Math Club (2019-2020)

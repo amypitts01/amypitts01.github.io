@@ -13,7 +13,7 @@
 
 <title>Academic</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -146,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -179,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -188,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -438,26 +435,42 @@ href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf">paper</a>!
 </div>
 <div id="experience" class="section level2">
 <h2>Experience</h2>
+<div id="research-analyst-2021-present" class="section level4">
+<h4>Research Analyst (2021-Present)</h4>
+<p>Location: Biostatistics Department, Mailman School of Public
+Health</p>
+<ul>
+<li>Assists in the development of methods and sensitivity analysis for
+transportability in multi-study, multi-outcome settings and their
+applications to cognitive remediation therapy for patients with
+schizophrenia, Mentor: Dr. Caleb H. Miles</li>
+<li>Develops methods for graphical causal models and identification of
+direct effects with positivity violations and their applications to the
+causal effect of anesthesia on fetal development, Mentor: Dr. Caleb H.
+Miles</li>
+<li>Implements MRP models to improve survey representativeness and the
+inference of health outcomes among patients with HIV during COVID-19
+pandemic, Mentor: Dr. Qixuan Chen</li>
+<li>Creates reproducible reports and visualizations to share with
+collaborators using tidyverse, R Markdown, and RShiny</li>
+<li>Attends multidisciplinary meetings to discuss both methods and
+applications</li>
+</ul>
+</div>
 <div id="graduate-teaching-assistant-2020-present"
 class="section level4">
 <h4>Graduate Teaching Assistant (2020-Present)</h4>
 <p>Location: Biostatistics Department, Mailman School of Public
 Health</p>
 <ul>
-<li>Fosters learning through holding weekly once hours, and answering
-student questions during class and over email, provides detailed
-feedback on weekly assignments, quizzes and projects</li>
-<li>Introduction to Health Data Science course primarily focuses on
-tidyverse in R and basic biostatistics fundamental topics</li>
-<li>Introduction to Randomized Clinical Trials course focuses on the
-fundamentals of clinical trials which culminates in each student
-designing their own phase 3 protocol unitizing the PASS software</li>
-<li>Biostatistical Methods II course focuses on generalized linear
-models, as well as methods to handle longitudinal data, and survival
-data.</li>
-<li>Statistical Methods for Casual Inference focuses on discussing
-causal graphs, randomization, model-based inference, and casual
-medication as well as various methodological tools.</li>
+<li>Fosters learning through holding weekly office hour, and answering
+student questions during class and over email</li>
+<li>Provides detailed feedback on weekly assignments, quizzes and
+projects<br />
+</li>
+<li>Classes include Introduction to Data Science in R, Randomized
+Clinical Trials, Biostatistical Methods II, Statistical Methods for
+Casual Inference, and Data Science II</li>
 </ul>
 </div>
 <div id="biostatistics-research-fellow-summer-2021"
@@ -515,10 +528,14 @@ process of being edited to eventually be submitted for publication</li>
 </div>
 <div id="relevant-skills" class="section level2">
 <h2>Relevant Skills</h2>
-<p>Experience in Python, R, RStudio, RShiny, LATEX, Java, HTML, CSS,
-JavaScript, D3, node.js, git, GitHub, SQL, Access, Maple, Octave,
-MATLAB, Hadoop, Hive, Pig, Spark, Microsoft Sql Server, and Microsoft
-Visual Studio</p>
+<p><strong>Programming Languages:</strong> R, RStudio, , git, GitHub,
+PASS, Python, HTML, CSS, JavaScript, SQL, MATLAB, Java</p>
+<p><strong>Statistical Skills:</strong> Causal Inference, Hypothesis
+testing, Regression Techniques (linear, glm, lasso, ridge),
+Multivariate, Longitudinal and Survival Analysis, Neural Networks/Deep
+Learning, Bayesian Approaches, Stochastic Processes</p>
+<p><strong>Data Visualization Tools:</strong> RShiny, ggplot, gtsummary,
+Rmarkdown, tikZ, D3, tableau</p>
 <hr />
 </div>
 <div id="relevant-course-work" class="section level2">
@@ -570,18 +587,32 @@ Analysis, Data Visualization, Data Management courses</p>
 <div id="publications" class="section level4">
 <h4>Publications</h4>
 <ul>
-<li>Pitts, Amy, &amp; Rivas, Pablo, “Finding Time Series Breakpoints
-with Fully Connected Neural Networks”, <em>Int’l Conf. Artificial
-Intelligence CSREA Press.</em> 2019. p.352-357. <a
+<li><strong>Pitts, Amy,</strong> &amp; Rivas, Pablo, “Finding Time
+Series Breakpoints with Fully Connected Neural Networks”, <em>Int’l
+Conf. Artificial Intelligence CSREA Press.</em> 2019. p.352-357. <a
 href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf">ISBN:
 1-60132-501-0</a>.</li>
-<li>Pitts, Amy, &amp; Patil, Sujata. “Missing data in cancer studies” in
+<li>Duong, Ngoc Q., <strong>Pitts, Amy J.,</strong> Kim, Soohyun &amp;
+Miles, Caleb H. ``Sensitivity analysis for transportability in
+multi-study, multi-outcome settings’’ <a
+href="https://arxiv.org/pdf/2301.02904.pdf">arXiv preprint
+arXiv:2301.02904</a> (2023).</li>
+<li><strong>Pitts, Amy J.</strong> &amp; Fowler, Charlotte. ``Comparison
+of open-source software for plotting directed acyclic graphs” in
 preparation.</li>
+<li><strong>Pitts, Amy,</strong> &amp; Patil, Sujata. “Missing data in
+cancer studies” in preparation.</li>
 </ul>
 </div>
 <div id="presentations" class="section level4">
 <h4>Presentations</h4>
 <ul>
+<li>Pitts, Amy. Fowler, Charlotte. <a
+href="http://cu-biostats-computing-club.org/resources_files/DAG_pres.html#(1)">“Software
+to Draw DAGs”</a>, Causal Inference Learning Group. Feb 2023.</li>
+<li>Pitts, Amy. <a
+href="http://cu-biostats-computing-club.org/resources_files/shiny_pres/cc_pres_nov_2022.pdf">“R-Shiny
+Crash Course”</a> Columbia Biostatistics Computing Club. Nov 2022.</li>
 <li>Pitts, Amy. “Bayesian Go/No-Go Rules &amp; Two-stage Designs and
 Comparison of Dose Escalation Designs in Early Oncology Studies”,
 Bristol Myers Squibb. Microsoft Teams. August 2021.</li>
@@ -620,6 +651,9 @@ College Department of Mathematics. Poughkeepsie, NY. September
 <div id="poster-presentations" class="section level4">
 <h4>Poster Presentations</h4>
 <ul>
+<li>Pitts, Amy. ``Inference of health outcomes among patients with HIV
+during covid-19 pandemic: using mrp model to improve survey
+representativeness”, ENAR Poster Session. Mar 2023.</li>
 <li>Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. &amp; Leibner,
 Jeffery. “A Bayesian method for locating breakpoints in time series” ACM
 New York Celebration of Women in Computing. Lake George, NY. April
@@ -638,6 +672,8 @@ Joint Mathematics Meeting. Baltimore, MD. January 2019.</li>
 <ul>
 <li>Board Member, Columbia University Biostatistics Computing Club,
 (2020-Present)</li>
+<li>Chair of Student Committee, Columbia Biostatistics Department Master
+Practicum Symposium, (2023)</li>
 <li>President, Marist College Alpha Pi Chapter, Pi Mu Epsilon
 (2019-2020)</li>
 <li>President and Founder, Association for Women in Mathematics (AWM)
