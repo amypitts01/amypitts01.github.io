@@ -37,7 +37,7 @@ This is home to all my academic accomplishments. A pdf copy of my CV is availabl
 --- 
 
 ## Interesting Projects
-This is home to a complication of projects I have done throughout my academic career.
+Welcome to my portfolio showcasing a curated collection of projects that I've accomplished during my academic journey.
 
 ##### Association of Bayesian Go/No-Go Design in Early Oncology Studies
 This is a project completed during my internship at Bristol Myers Squibb. It is a 
@@ -46,9 +46,6 @@ This is a project completed during my internship at Bristol Myers Squibb. It is 
 ##### Dose Escalation Methods
 This is the second project that I completed during my time at Bristol Myers Squibb. I developed a 
 [shiny app](https://amypitts.shinyapps.io/dose_escalation_app/) that compares 11 different dose escalation methods through user specified simulations. It also compares decision tables for the methods that can be summarized into one. 
-
-##### Exploration in US Beer Data. 
-This final project for a data science class is an interactive [website](https://iriswangziyi.github.io/p8105_final_project/index.html) that dives into how Beer consumption, production and taxation difference between each state. 
 
 ##### Missing Data in Cancer Studies. 
 View an interactive visualization of how missing data introduce bias in my [Shiny App](https://amypitts.shinyapps.io/Missing_Data/)! 
@@ -109,7 +106,7 @@ Location: Lafayette College, Easton, Pennsylvania
 
 ## Relevant Skills 
 
-**Programming Languages:**  R, RStudio, \LaTeX, git, GitHub, PASS, Python, HTML, CSS, JavaScript, SQL, MATLAB, Java 
+**Programming Languages:**  R, RStudio, LaTeX, git, GitHub, PASS, Python, HTML, CSS, JavaScript, SQL, MATLAB, Java 
 
 **Statistical Skills:** Causal Inference, Hypothesis testing, Regression Techniques (linear, glm, lasso, ridge), Multivariate, Longitudinal and Survival Analysis, Neural Networks/Deep Learning, Bayesian Approaches,  Stochastic Processes 
 
@@ -162,6 +159,7 @@ courses
 - **Pitts, Amy,** & Patil, Sujata. "Missing data in cancer studies" in preparation.
 
 #### Presentations
+- Pitts, Amy. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
 - Pitts, Amy. Fowler, Charlotte. ["Software to Draw DAGs"](http://cu-biostats-computing-club.org/resources_files/DAG_pres.html#(1)), Causal Inference Learning Group. Feb 2023. 
 - Pitts, Amy. ["R-Shiny Crash Course"](http://cu-biostats-computing-club.org/resources_files/shiny_pres/cc_pres_nov_2022.pdf) Columbia Biostatistics Computing Club. Nov 2022. 
 - Pitts, Amy. "Bayesian Go/No-Go Rules & Two-stage Designs and Comparison of Dose Escalation Designs in Early Oncology Studies", Bristol Myers Squibb. Microsoft Teams. August 2021. 
@@ -177,7 +175,7 @@ courses
 -  Pitts, Amy. "My Research Experience at Lafayette College" Marist College Department of Mathematics. Poughkeepsie, NY. September 2018. 
 
 #### Poster Presentations
-- Pitts, Amy. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", ENAR Poster Session. Mar 2023.
+- Pitts, Amy. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", Eastern North American Region International Biometric Society (ENAR). Nashville, TN. Mar 2023.
 - Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" ACM New York Celebration of Women in Computing. Lake George, NY. April 2019.
 - Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meeting. Baltimore, MD. January 2019.
 
