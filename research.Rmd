@@ -155,7 +155,7 @@ courses
 
 - **Pitts, Amy,** & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
 - Duong, Ngoc Q., **Pitts, Amy J.,** Kim, Soohyun \& Miles, Caleb H. ``Sensitivity analysis for transportability in multi-study, multi-outcome settings'' [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
-- **Pitts, Amy J.** \& Fowler, Charlotte. ``Comparison of open-source software for plotting directed acyclic graphs" in preparation. 
+- **Pitts, Amy J.** \& Fowler, Charlotte R. ``Comparison of open-source software for plotting directed acyclic graphs"  [arXiv preprint arXiv:2305.12006](https://arxiv.org/pdf/2305.12006.pdf) (2023).
 - **Pitts, Amy,** & Patil, Sujata. "Missing data in cancer studies" in preparation.
 
 #### Presentations
