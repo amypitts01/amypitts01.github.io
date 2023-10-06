@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This is home to all my academic accomplishments. A pdf copy of my CV is available  [here](AmyPitts_cv.pdf). Please reach out if you have any questions. 
+This is home to all my academic accomplishments. A pdf copy of my CV is available  [here](AmyPitts_cv_oct2023.pdf). Please reach out if you have any questions. 
 
 --- 
 
