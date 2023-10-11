@@ -1,0 +1,47 @@
+---
+title: "Talks"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#### Conference Contributed Talks
+
+- **Pitts, Amy**. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
+-  **Pitts, Amy**, & Rivas, Pablo. "Finding time series breakpoints with fully connected neural networks" 2019 International Conference of Artificial Intelligence. Las Vegas, NV. July, 2019. 
+-  **Pitts, Amy**. Haglich, Kathryn. & Neitzel, Sarah. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meetings. Baltimore, MD. January 2019.
+
+
+#### Invited Talks
+
+- **Pitts, Amy**. Ing, Caleb. Guo, Ling. Miles, Caleb. “Using a separable effects model to
+overcome extreme positivity violation and distinguish the causal effects of surgery and
+anesthesia” Columbia Biostatistics Annual Research Symposium (CBARS). Sept 2023.
+- **Pitts, Amy**. "Predicting Mesothelioma Disease Status Using Demographic, Clinical, and Exposure-Related Factors", Marist College Pi Mu Epsilon Induction Ceremony. May 2021. 
+
+#### Campus/Other Talks
+
+- **Pitts, Amy**. Fowler, Charlotte. ["Software to Draw DAGs"](http://cu-biostats-computing-club.org/resources_files/DAG_pres.html#(1)), Causal Inference Learning Group. Feb 2023. 
+- **Pitts, Amy**. ["R-Shiny Crash Course"](http://cu-biostats-computing-club.org/resources_files/shiny_pres/cc_pres_nov_2022.pdf) Columbia Biostatistics Computing Club. Nov 2022. 
+- **Pitts, Amy**. "Bayesian Go/No-Go Rules & Two-stage Designs and Comparison of Dose Escalation Designs in Early Oncology Studies", Bristol Myers Squibb. Microsoft Teams. August 2021. 
+- **Pitts, Amy**. Kwizera, Muhire. "Python Tutorial", Columbia Biostatistics Computing Club. December 2020.
+-  **Pitts, Amy**. Mulligan, Kaitlyn. & Allison Nowakowski. "The Machine Learning Quote Generator" Marist College School of Computer Science & Mathematics. Cisco Webex. May 2020.
+- **Pitts, Amy**. "SeminaR: an R tutorial looking at shiny applications" Marist College Department of Mathematics. Poughkeepsie, NY. November 2019.  
+-  **Pitts, Amy**. "My Research Experience at Memorial Sloan Kettering Cancer Center'' Marist College Department of Mathematics. Poughkeepsie, NY. October 2019. 
+- **Pitts, Amy**. "Overleaf Overview'' Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. New York, NY. August 2019.
+- **Pitts, Amy**. "Missing Data in Cancer Studies" QSURE Final Presentations hosted in the Department of Epidemiology and Biostatistics at Memorial Sloan Kettering Cancer Center. New York, NY. July 2019.
+-  **Pitts, Amy**. "My Research Experience at Lafayette College" Marist College Department of Mathematics. Poughkeepsie, NY. September 2018. 
+
+
+#### Conference Poster Presentations
+
+- **Pitts, Amy**. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", Eastern North American Region International Biometric Society (ENAR). Nashville, TN. Mar 2023.
+- **Pitts, Amy**. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" ACM New York Celebration of Women in Computing. Lake George, NY. April 2019.
+- **Pitts, Amy**. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meeting. Baltimore, MD. January 2019.
+

@@ -1,0 +1,55 @@
+---
+title: "Publications"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Please find my Google Scholar profile [here](https://scholar.google.com/citations?user=TXO-bJcAAAAJ&hl=en&oi=ao)
+
+A pdf copy of my CV is available  [here](AmyPitts_cv_oct2023.pdf). 
+
+
+--- 
+
+#### Peer Reviewed Publications
+
+ - Lawlor, M.K., Ng, V., Ahmed, S., Dershowitz, L., Brener, M.I., Kampaktsis, P., **Pitts, A.,**
+Vahl, T., Nazif, T., Leon, M. and George, I. (2023). Baseline characteristics and clinical
+outcomes of a tricuspid regurgitation referral population. The American Journal of
+Cardiology, 196, (pp.22-30).
+- Lawlor, M., Ng, V.G., Ahmed, S., Dershowitz, L., Brener, M., Kampaktsis, P., **Pitts, A.,**
+Vahl III, T.P., Nazif, T., Leon, M.B. and George, I., 2023. Right Atrial Pressure in
+Pulmonary Hypertension Assessment in Tricuspid Regurgitation. Journal of the American
+College of Cardiology, 81(8_Supplement), pp.1970-1970.
+- **Pitts, Amy,** & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
+
+####  Select Works in Progress
+
+- **Pitts, Amy J.** \& Fowler, Charlotte R. ``Comparison of open-source software for plotting directed acyclic graphs"  [arXiv preprint arXiv:2305.12006](https://arxiv.org/pdf/2305.12006.pdf) (2023). (Manuscript submitted to Journal of Causal Inference)
+- Duong, Ngoc Q., **Pitts, Amy J.,** Kim, Soohyun \& Miles, Caleb H. ``Sensitivity analysis for transportability in multi-study, multi-outcome settings'' [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
+
+---
+
+#### Other Projects
+
+##### Association of Bayesian Go/No-Go Design in Early Oncology Studies
+This is a project completed during my internship at Bristol Myers Squibb. It is a 
+[shiny app](https://amypitts.shinyapps.io/go_nogo_early_oncology_studies/) that explores how the Simon's Two-Phase Design can be adapted to a dual criterion Bayesian design.
+
+##### Dose Escalation Methods
+This is the second project that I completed during my time at Bristol Myers Squibb. I developed a 
+[shiny app](https://amypitts.shinyapps.io/dose_escalation_app/) that compares 11 different dose escalation methods through user specified simulations. It also compares decision tables for the methods that can be summarized into one. 
+
+##### Missing Data in Cancer Studies. 
+View an interactive visualization of how missing data introduce bias in my [Shiny App](https://amypitts.shinyapps.io/Missing_Data/)! 
+
+##### Finding Time Series Breakpoints with Fully Connected Neural Networks
+Here is the published [paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf)!
+
+---
