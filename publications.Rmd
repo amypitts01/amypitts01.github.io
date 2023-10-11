@@ -17,7 +17,7 @@ A pdf copy of my CV is available  [here](AmyPitts_cv_oct2023.pdf).
 
 --- 
 
-#### Peer Reviewed Publications
+### Peer Reviewed Publications
 
  - Lawlor, M.K., Ng, V., Ahmed, S., Dershowitz, L., Brener, M.I., Kampaktsis, P., **Pitts, A.,**
 Vahl, T., Nazif, T., Leon, M. and George, I. (2023). Baseline characteristics and clinical
@@ -29,14 +29,14 @@ Pulmonary Hypertension Assessment in Tricuspid Regurgitation. Journal of the Ame
 College of Cardiology, 81(8_Supplement), pp.1970-1970.
 - **Pitts, Amy,** & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
 
-####  Select Works in Progress
+###  Select Works in Progress
 
 - **Pitts, Amy J.** \& Fowler, Charlotte R. ``Comparison of open-source software for plotting directed acyclic graphs"  [arXiv preprint arXiv:2305.12006](https://arxiv.org/pdf/2305.12006.pdf) (2023). (Manuscript submitted to Journal of Causal Inference)
 - Duong, Ngoc Q., **Pitts, Amy J.,** Kim, Soohyun \& Miles, Caleb H. ``Sensitivity analysis for transportability in multi-study, multi-outcome settings'' [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
 
 ---
 
-#### Other Projects
+### Other Projects
 
 ##### Association of Bayesian Go/No-Go Design in Early Oncology Studies
 This is a project completed during my internship at Bristol Myers Squibb. It is a 
@@ -48,8 +48,5 @@ This is the second project that I completed during my time at Bristol Myers Squi
 
 ##### Missing Data in Cancer Studies. 
 View an interactive visualization of how missing data introduce bias in my [Shiny App](https://amypitts.shinyapps.io/Missing_Data/)! 
-
-##### Finding Time Series Breakpoints with Fully Connected Neural Networks
-Here is the published [paper](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf)!
 
 ---

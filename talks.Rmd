@@ -13,14 +13,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Conference Contributed Talks
 
-- **Pitts, Amy**. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
+- **Pitts, Amy**. "Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
 -  **Pitts, Amy**, & Rivas, Pablo. "Finding time series breakpoints with fully connected neural networks" 2019 International Conference of Artificial Intelligence. Las Vegas, NV. July, 2019. 
 -  **Pitts, Amy**. Haglich, Kathryn. & Neitzel, Sarah. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meetings. Baltimore, MD. January 2019.
 
 
 #### Invited Talks
 
-- **Pitts, Amy**. Ing, Caleb. Guo, Ling. Miles, Caleb. “Using a separable effects model to
+- **Pitts, Amy**. Ing, Caleb. Guo, Ling. Miles, Caleb. "Using a separable effects model to
 overcome extreme positivity violation and distinguish the causal effects of surgery and
 anesthesia” Columbia Biostatistics Annual Research Symposium (CBARS). Sept 2023.
 - **Pitts, Amy**. "Predicting Mesothelioma Disease Status Using Demographic, Clinical, and Exposure-Related Factors", Marist College Pi Mu Epsilon Induction Ceremony. May 2021. 
