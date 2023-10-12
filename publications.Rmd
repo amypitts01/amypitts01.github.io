@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Please find my Google Scholar profile [here](https://scholar.google.com/citations?user=TXO-bJcAAAAJ&hl=en&oi=ao)
 
-A pdf copy of my CV is available  [here](AmyPitts_cv_oct2023.pdf). 
+A pdf copy of my CV is available  [here](amypitts_cv_oct2023.pdf). 
 
 
 --- 
