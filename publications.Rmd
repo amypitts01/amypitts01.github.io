@@ -17,20 +17,25 @@ A pdf copy of my CV is available  [here](amypitts_cv_oct2023.pdf).
 
 ### Peer Reviewed Publications
 
+- **Pitts, A.J.** & Fowler, C.R. (2023, in press). Comparison of open-source software for
+producing directed acyclic graphs. *Journal of Causal Inference*.
+- Singh, T., **Pitts, A.J.**, Miles, C.H., Ing, C.H. (2023, in press). Anesthetic Exposure During
+Early Childhood and Neurodevelopmental Outcomes: Our Current Understanding.
+*Current Anesthesiology Reports*
  - Lawlor, M.K., Ng, V., Ahmed, S., Dershowitz, L., Brener, M.I., Kampaktsis, P., **Pitts, A.,**
 Vahl, T., Nazif, T., Leon, M. and George, I. (2023). Baseline characteristics and clinical
-outcomes of a tricuspid regurgitation referral population. The American Journal of
-Cardiology, 196, (pp.22-30).
+outcomes of a tricuspid regurgitation referral population. *The American Journal of Cardiology*, 196, (pp.22-30).
 - Lawlor, M., Ng, V.G., Ahmed, S., Dershowitz, L., Brener, M., Kampaktsis, P., **Pitts, A.,**
 Vahl III, T.P., Nazif, T., Leon, M.B. and George, I., 2023. Right Atrial Pressure in
-Pulmonary Hypertension Assessment in Tricuspid Regurgitation. Journal of the American
-College of Cardiology, 81(8_Supplement), pp.1970-1970.
-- **Pitts, Amy,** & Rivas, Pablo, "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
+Pulmonary Hypertension Assessment in Tricuspid Regurgitation. *Journal of the American College of Cardiology*, 81(8_Supplement), pp.1970-1970.
+- **Pitts, A.,** & Rivas, P., "Finding Time Series Breakpoints with Fully Connected Neural Networks", *Int'l Conf. Artificial Intelligence CSREA Press.* 2019. p.352-357. [ISBN: 1-60132-501-0](https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/ICA4059.pdf).
 
 ###  Select Works in Progress
 
-- **Pitts, Amy J.** \& Fowler, Charlotte R. ``Comparison of open-source software for plotting directed acyclic graphs"  [arXiv preprint arXiv:2305.12006](https://arxiv.org/pdf/2305.12006.pdf) (2023). (Manuscript submitted to Journal of Causal Inference)
-- Duong, Ngoc Q., **Pitts, Amy J.,** Kim, Soohyun \& Miles, Caleb H. ``Sensitivity analysis for transportability in multi-study, multi-outcome settings'' [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
+- Duong, N.Q., **Pitts, A.J.,** Kim, S. \& Miles, C.H. Sensitivity analysis for transportability in multi-study, multi-outcome settings [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
+- **Pitts, A.J.**, Yomogida, M., Aidala, A., Gelman, A., Chen, Q. Inference of health outcomes
+among patients with HIV during COVID-19 pandemic: using MRP model to improve
+survey representativeness. *(in preparation)*
 
 ---
 
