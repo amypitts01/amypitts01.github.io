@@ -17,12 +17,12 @@ A pdf copy of my CV is available  [here](amypitts_cv_oct2023.pdf).
 
 ### Peer Reviewed Publications
 
-- **Pitts, A.J.** & Fowler, C.R. (2023, in press). Comparison of open-source software for
-producing directed acyclic graphs. *Journal of Causal Inference*.
-- Singh, T., **Pitts, A.J.**, Miles, C.H., Ing, C.H. (2023, in press). Anesthetic Exposure During
+- **Pitts, A.J.** & Fowler, C.R. (2024). Comparison of open-source software for
+producing directed acyclic graphs. *Journal of Causal Inference*. vol. 12, no. 1, 2024, pp. 20230031. [https://doi.org/10.1515/jci-2023-0031](https://doi.org/10.1515/jci-2023-0031)
+- Singh, T., **Pitts, A.J.**, Miles, C.H., Ing, C.H. (2023). Anesthetic Exposure During
 Early Childhood and Neurodevelopmental Outcomes: Our Current Understanding.
-*Current Anesthesiology Reports*
- - Lawlor, M.K., Ng, V., Ahmed, S., Dershowitz, L., Brener, M.I., Kampaktsis, P., **Pitts, A.,**
+*Current Anesthesiology Reports* [https://doi.org/10.1007/s40140-023-00592-y](https://doi.org/10.1007/s40140-023-00592-y)
+- Lawlor, M.K., Ng, V., Ahmed, S., Dershowitz, L., Brener, M.I., Kampaktsis, P., **Pitts, A.,**
 Vahl, T., Nazif, T., Leon, M. and George, I. (2023). Baseline characteristics and clinical
 outcomes of a tricuspid regurgitation referral population. *The American Journal of Cardiology*, 196, (pp.22-30).
 - Lawlor, M., Ng, V.G., Ahmed, S., Dershowitz, L., Brener, M., Kampaktsis, P., **Pitts, A.,**
