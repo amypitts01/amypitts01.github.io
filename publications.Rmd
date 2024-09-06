@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Please find my Google Scholar profile [here](https://scholar.google.com/citations?user=TXO-bJcAAAAJ&hl=en&oi=ao)
 
-A pdf copy of my CV is available  [here](amypitts_cv_oct2023.pdf). 
+A pdf copy of my CV is available  [here](amypitts_cv_sept2024.pdf). 
 
 
 --- 
@@ -35,7 +35,8 @@ Pulmonary Hypertension Assessment in Tricuspid Regurgitation. *Journal of the Am
 - Duong, N.Q., **Pitts, A.J.,** Kim, S. \& Miles, C.H. Sensitivity analysis for transportability in multi-study, multi-outcome settings [arXiv preprint arXiv:2301.02904](https://arxiv.org/pdf/2301.02904.pdf) (2023).
 - **Pitts, A.J.**, Yomogida, M., Aidala, A., Gelman, A., Chen, Q. Inference of health outcomes
 among patients with HIV during COVID-19 pandemic: using MRP model to improve
-survey representativeness. *(in preparation)*
+survey representativeness. *(submitted for review)*.
+-	**Pitts, A.J.**, Guo, Ling., Ing, Caleb., Miles, Caleb. “Overcoming an extreme positivity violation to distinguish the causal effects of surgery and anesthesia using a separable effects model.” *(in preparation)*.
 
 ---
 

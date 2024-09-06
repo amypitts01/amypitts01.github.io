@@ -73,6 +73,13 @@ Location: Biostatistics Department, Mailman School of Public Health
 - Provides detailed feedback on weekly assignments, quizzes and projects  
 - Classes include Introduction to Data Science in R, Randomized Clinical Trials, Biostatistical Methods II,  Statistical Methods for Casual Inference, and Data Science II
 
+#### Summer Associate Healthcare Intern (Summer 2024)
+Location: Analysis Group, New York, NY
+
+- Applied statistical methods to gain insight into drug efficacy and patient reported outcomes in collaboration with leading pharmaceutical companies 
+- Cleaned and explored electronic health data to help create a statistical analysis plan
+- Designed a survey of physicians to gather critical insights on clinical practices, effectively informing subsequent chart reviews and enhancing understanding of healthcare trends and practices
+
 #### Biostatistics Research Fellow  (Summer 2021)
 Location: Bristol Myers Squibb, Remote Internship 
 
@@ -159,7 +166,9 @@ courses
 - **Pitts, Amy,** & Patil, Sujata. "Missing data in cancer studies" in preparation.
 
 #### Presentations
-- Pitts, Amy. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
+
+-	Pitts, Amy. "Using a separable effects model to overcome extreme positivity violation and distinguish the causal effects of surgery and anesthesia" Eastern North American Region (ENAR). Baltimore, MD. Mar 2024. 
+- Pitts, Amy. "Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
 - Pitts, Amy. Fowler, Charlotte. ["Software to Draw DAGs"](http://cu-biostats-computing-club.org/resources_files/DAG_pres.html#(1)), Causal Inference Learning Group. Feb 2023. 
 - Pitts, Amy. ["R-Shiny Crash Course"](http://cu-biostats-computing-club.org/resources_files/shiny_pres/cc_pres_nov_2022.pdf) Columbia Biostatistics Computing Club. Nov 2022. 
 - Pitts, Amy. "Bayesian Go/No-Go Rules & Two-stage Designs and Comparison of Dose Escalation Designs in Early Oncology Studies", Bristol Myers Squibb. Microsoft Teams. August 2021. 
@@ -175,7 +184,10 @@ courses
 -  Pitts, Amy. "My Research Experience at Lafayette College" Marist College Department of Mathematics. Poughkeepsie, NY. September 2018. 
 
 #### Poster Presentations
-- Pitts, Amy. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", Eastern North American Region International Biometric Society (ENAR). Nashville, TN. Mar 2023.
+
+-	Pitts, Amy. "Multilevel Regression & Poststratification with Population Margins: Application to HIV Inference" Joint Statistical Meeting (JSM), Portland OR. Aug 2024.
+- Pitts, Amy.  "Using a separable effects model to overcome extreme positivity violation and distinguish the causal effects of surgery and anesthesia" American Causal Inference Conference (ACIC). Seattle, WA. May 2024. 
+- Pitts, Amy. "Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", Eastern North American Region International Biometric Society (ENAR). Nashville, TN. Mar 2023.
 - Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" ACM New York Celebration of Women in Computing. Lake George, NY. April 2019.
 - Pitts, Amy. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meeting. Baltimore, MD. January 2019.
 
@@ -195,6 +207,8 @@ courses
    
 #### Honors
 
+- Poster Award from the Joint Statistical Meeting Survey Research Method Section at the 2024 Joint Statistical Meetings in Portland, Oregon (2024)
+- Travel award from the Survey Research Methods Section to attend the 2024 Joint Statistical Meetings in Portland, Oregon (2024)
 - Invited to give a key note presentation and the presidential address at the Marist College Pi Mu Epsilon Induction Ceremony (2021)
 - Marist College Excellence in Mathematics Award (2020)
 - Inducted into the Marist College Pi Mu Epsilon Chapter Mathematics Honors Society (2019)

@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Conference Contributed Talks
 
+- **Pitts, Amy.** "Using a separable effects model to overcome extreme positivity violation and distinguish the causal effects of surgery and anesthesia" Eastern North American Region (ENAR). Baltimore, MD. Mar 2024. 
 - **Pitts, Amy**. "Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", American Association for Public Opinion Research (AAPOR). Philadelphia, PA. May 2023.
 -  **Pitts, Amy**, & Rivas, Pablo. "Finding time series breakpoints with fully connected neural networks" 2019 International Conference of Artificial Intelligence. Las Vegas, NV. July, 2019. 
 -  **Pitts, Amy**. Haglich, Kathryn. & Neitzel, Sarah. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meetings. Baltimore, MD. January 2019.
@@ -39,7 +40,9 @@ anesthesia” Columbia Biostatistics Annual Research Symposium (CBARS). Sept 202
 
 #### Conference Poster Presentations
 
-- **Pitts, Amy**. ``Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", Eastern North American Region International Biometric Society (ENAR). Nashville, TN. Mar 2023.
+-	**Pitts, Amy.** "Multilevel Regression & Poststratification with Population Margins: Application to HIV Inference" Joint Statistical Meeting (JSM), Portland OR. Aug 2024.
+- **Pitts, Amy.**  "Using a separable effects model to overcome extreme positivity violation and distinguish the causal effects of surgery and anesthesia" American Causal Inference Conference (ACIC). Seattle, WA. May 2024. 
+- **Pitts, Amy**. "Inference of health outcomes among patients with HIV during covid-19 pandemic: using mrp model to improve survey representativeness", Eastern North American Region International Biometric Society (ENAR). Nashville, TN. Mar 2023.
 - **Pitts, Amy**. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" ACM New York Celebration of Women in Computing. Lake George, NY. April 2019.
 - **Pitts, Amy**. Haglich, Kathryn. Neitzel, Sarah. & Leibner, Jeffery. "A Bayesian method for locating breakpoints in time series" Joint Mathematics Meeting. Baltimore, MD. January 2019.
 
